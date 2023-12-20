@@ -1,0 +1,24 @@
+{
+  "name": "kaburimake-checker-utils-ts",
+  "version": "0.1.0",
+  "description": "被り負けチェッカーTS用のツール",
+  "main": "dist/index.js",
+  "bin": {
+    "kaburimake-checker-utils-ts": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "月波 清火",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}
