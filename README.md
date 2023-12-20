@@ -85,7 +85,7 @@ PS path\to\kaburimake-checker-utils-ts> npm exec kaburimake-checker-utils-ts -- 
 同じ形式のjsonファイルの情報をまとめ、1つのjsonファイルに出力します。
 
 - --output <path> : 出力するファイルを指定します。既定値: `./ghost_list.json`
-- --input [dirs...] : 入力するファイルのパスを指定します。複数指定可能。
+- --input [paths...] : 入力するファイルのパスを指定します。複数指定可能。
 
 ### `erase`
 
