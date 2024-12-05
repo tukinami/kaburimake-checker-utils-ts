@@ -63,7 +63,7 @@ PS anywhere\you\want> npm unlink -g kaburimake-checker-utils-ts
 例:
 
 ``` PowerShell
-PS path\to\kaburimake-checker-utils-ts> npm exec kaburimake-checker-utils-ts -- build --input C:/SSP/ghost
+PS path\to\kaburimake-checker-utils-ts> npm exec kaburimake-checker-utils-ts -- build -- --input C:/SSP/ghost
 ```
 
 ### `build`
