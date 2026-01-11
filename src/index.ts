@@ -5,7 +5,7 @@ export const cli = () => {
   const program = new Command();
 
   program.name('kaburimake-checker-utils-ts')
-    .version('0.1.0')
+    .version('0.1.1')
     .command('build [options]', 'build ghost data json from directories in input directories.').alias('b')
     .command('append [options]', 'append ghost data from directories in input directories').alias('a')
     .command('merge [options]', 'merge ghost data from input data').alias('m')

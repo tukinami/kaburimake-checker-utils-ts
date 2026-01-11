@@ -27,7 +27,7 @@
 
 ``` Powershell
 PS path\to\kaburimake-checker-utils-ts> npm exec kaburimake-checker-utils-ts -- --version
-0.1.0
+0.1.1
 ```
 
 ### どこからでも使えるようにする方法
@@ -47,7 +47,7 @@ PS path\to\kaburimake-checker-utils-ts> npm link
 
 ``` PowerShell
 PS anywhere\you\want> kaburimake-checker-utils-ts --version
-0.1.0
+0.1.1
 ```
 
 登録を解除したい場合は、シェル上のどこでもいいので、`npm unlink -g kaburimake-checker-utils-ts`と入力して決定してください。
